@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:mcx2020/chax",
   "author": "EddieMa",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
