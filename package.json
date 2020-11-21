@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "rm -rf dist && parcel build ./src/index.html --no-minify --public-url=./"
+  },
   "name": "chax",
   "version": "0.0.1",
   "description": "这是一个 UI 框架",
@@ -7,6 +11,6 @@
   "author": "EddieMa",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.11"
+    "jquery": "^3.5.1"
   }
 }
