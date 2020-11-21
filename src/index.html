@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chax UI组件库</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<h1  style="text-align: center">Chax UI组件库</h1>
+<div style="margin: 0 auto;max-width:1200px">
+
+  <h2>弹窗组件</h2>
+  <button class="chax-modal-demo">弹窗演示</button>
+  <div class="chax-modal">
+    <div class="chax-modal-content">
+      <div>这是一个弹窗哦</div>
+      <div class="chax-modal-close">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-baseline-close-px"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="code-display">
+    <div class="code-wrapper">
+      <h3>HTML</h3>
+      <button data-chax-clipboard-target=".chax-modal-html-code">Copy</button>
+      <pre class="chax-modal-html-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>CSS</h3>
+      <button data-chax-clipboard-target=".chax-modal-css-code">Copy</button>
+      <pre class="chax-modal-css-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>JS</h3>
+      <button data-chax-clipboard-target=".chax-modal-js-code">Copy</button>
+      <pre class="chax-modal-js-code"></pre>
+    </div>
+  </div>
+</div>
+
+<script src="https://at.alicdn.com/t/font_2219992_7h9oz1g0xo4.js"></script>
+<script src="./index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+.chax-modal{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: rgba(0,0,0,0.2);
+    z-index:100;
+    display:none;
+}
+.chax-modal.active{
+    display:block;
+}
+.chax-modal .chax-modal-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*以下内容自由调整*/
+    width:500px;
+    height:500px;
+    background: tan;
+    border-radius:4px;
+    display:flex;
+    font-size:20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.chax-modal .chax-modal-content .chax-modal-close{
+    position: absolute;
+    cursor: pointer;
+    /*以下内容自由调整*/
+    top:20px;
+    right:20px;
+    font-size: 20px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+button:focus{
+    outline:none;
+}
+
+.icon {
+     width: 1em; height: 1em;
+     vertical-align: -0.15em;
+     fill: currentColor;
+     overflow: hidden;
+ }
+.code-display{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.code-wrapper{
+    position:relative;
+}
+
+[data-chax-clipboard-target]{
+    position:absolute;
+    bottom:calc(100% - 18px);
+    right:50px;
+    width:100px;
+    height:50px;
+    background: #EEE;
+    cursor: pointer;
+}
+.chax-modal-demo{
+    width:100px;
+    height:50px;
+    background: tan;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=src.d73e2f09.css.map */
