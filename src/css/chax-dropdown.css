@@ -1,0 +1,26 @@
+.chax-dropdown{
+	/* m */
+	width:160px;
+	background: #FFF;
+	/* f */
+	padding:10px 0;
+}
+.chax-dropdown .chax-dropdown-item{
+	/* c */
+	width:100%;
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* m */
+	height:34px;
+	color:#171718;
+	font-size: 14px;
+	padding-left:16px;
+	background: #FFF;
+}
+
+.chax-dropdown .chax-dropdown-item:hover{
+	/* m */
+	background: #F6F7F9;
+	color: #0057FF;
+}

@@ -1,5 +1,4 @@
 .chax-modal{
-    /* c */
     position:fixed;
     left:0;
     right:0;
@@ -10,32 +9,28 @@
     display:none;
 }
 .chax-modal.active{
-    /* c */
     display:block;
 }
-.chax-modal .chax-modal-content{
-    /* c */
+.chax-modal .chax-modal-content-baping{
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    /* m */
+    /*以下内容自由调整*/
     width:500px;
     height:500px;
     background: tan;
-    /* f */
+    border-radius:4px;
     display:flex;
+    font-size:20px;
     justify-content: center;
     align-items: center;
-    border-radius:4px;
-    font-size:20px;
     font-weight: bold;
 }
-.chax-modal .chax-modal-content .chax-modal-close{
-    /* c */
+.chax-modal .chax-modal-content-baping .chax-modal-close{
     position: absolute;
     cursor: pointer;
-    /* m */
+    /*以下内容自由调整*/
     top:20px;
     right:20px;
     font-size: 20px;

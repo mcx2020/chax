@@ -1,0 +1,23 @@
+.chax-suspension{
+    /* c */
+    position: fixed;
+    /* m */
+    z-index:20;
+    bottom:20px;
+    right:20px;
+    background: tan;
+    animation: 3s linear infinite chax-suspension-float;
+}
+
+@keyframes chax-suspension-float {
+    /* c */
+    0% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(0,-20%);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}

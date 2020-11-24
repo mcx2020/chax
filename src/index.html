@@ -9,9 +9,9 @@
 </head>
 <body>
 <h1  style="text-align: center">Chax UI组件库</h1>
-<div style="margin: 0 auto;max-width:1200px">
-
-  <h2>弹窗组件</h2>
+<div style="margin: 50px auto 200px auto;max-width:1200px">
+<!--What are you doing-->
+  <h2>Modal —— 模态框</h2>
   <button class="chax-modal-demo">弹窗演示</button>
   <div class="chax-modal">
     <div class="chax-modal-content">
@@ -26,18 +26,149 @@
   <div class="code-display">
     <div class="code-wrapper">
       <h3>HTML</h3>
-      <button data-chax-clipboard-target=".chax-modal-html-code">Copy</button>
-      <pre class="chax-modal-html-code"></pre>
+      <button class="chax-tooltip-click"  data-chax-clipboard-target=".chax-modal-html-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-modal-html-code"></pre>
     </div>
     <div class="code-wrapper">
       <h3>CSS</h3>
-      <button data-chax-clipboard-target=".chax-modal-css-code">Copy</button>
-      <pre class="chax-modal-css-code"></pre>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-modal-css-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-modal-css-code"></pre>
     </div>
     <div class="code-wrapper">
       <h3>JS</h3>
-      <button data-chax-clipboard-target=".chax-modal-js-code">Copy</button>
-      <pre class="chax-modal-js-code"></pre>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-modal-js-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-modal-js-code"></pre>
+    </div>
+  </div>
+
+  <h2>Tooltip —— 文字提示框</h2>
+  <button class="chax-tooltip-hover">
+    <div>提示演示——悬浮</div>
+    <div class="chax-tooltip">这是一条提示信息</div>
+  </button>
+  <button class="chax-tooltip-click">
+    <div>提示演示——点击</div>
+    <div class="chax-tooltip">这是一条提示信息</div>
+  </button>
+  <div class="code-display">
+    <div class="code-wrapper">
+      <h3>HTML</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-tooltip-html-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-tooltip-html-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>CSS</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-tooltip-css-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-tooltip-css-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>JS</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-tooltip-js-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-tooltip-js-code"></pre>
+    </div>
+  </div>
+
+  <h2>Suspension —— 悬浮框</h2>
+  <div style="display:inline-block;background: tan;padding:1em;margin:1em 1em 1em 0;">右下角演示</div>
+  <div class="chax-suspension">
+    <div style="width:150px;height:150px;">这是一个悬浮框</div>
+  </div>
+  <div class="code-display">
+    <div class="code-wrapper">
+      <h3>HTML</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-suspension-html-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-suspension-html-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>CSS</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-suspension-css-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-suspension-css-code"></pre>
+    </div>
+  </div>
+
+  <h2>Dropdown —— 下拉菜单</h2>
+  <div style="display:inline-block;background: tan;padding:1em;margin:1em 1em 1em 0;">分成悬浮方式和点击方式 ，提示冒泡的升级版，换汤不换药，演示代码暂时先不写了，下次有空了再写吧</div>
+
+  <h2>Tab —— 标签页面</h2>
+  <div style="display:inline-block;background: tan;padding:1em;margin:1em 1em 1em 0;">这个标签页有点复杂的，修改的时候要仔细琢磨一下</div>
+  <div class="chax-tab">
+    <div class="chax-tab-nav">
+      <div class="chax-tab-nav-item">
+        <div style="padding:10px">我是选项一</div>
+      </div>
+      <div class="chax-tab-nav-item">
+        <div style="padding:10px">我是选项二</div>
+      </div>
+      <div class="chax-tab-nav-item">
+        <div style="padding:10px">我是选项三</div>
+      </div>
+      <div class="chax-tab-nav-item">
+        <div style="padding:10px">我是选项四</div>
+      </div>
+    </div>
+    <div class="chax-tab-panel">
+      <div class="chax-tab-panel-item active">
+        <div style="height:100%;background: yellow;">我是内容一</div>
+      </div>
+      <div class="chax-tab-panel-item">
+        <div style="height:100%;background: orange;">我是内容二</div>
+      </div>
+      <div class="chax-tab-panel-item">
+        <div style="height:100%;background: green;">我是内容三</div>
+      </div>
+      <div class="chax-tab-panel-item">
+        <div style="height:100%;background: grey;">我是内容四</div>
+      </div>
+    </div>
+  </div>
+  <div class="code-display">
+    <div class="code-wrapper">
+      <h3>HTML</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-tab-html-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-tab-html-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>CSS</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-tab-css-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-tab-css-code"></pre>
+    </div>
+    <div class="code-wrapper">
+      <h3>JS</h3>
+      <button class="chax-tooltip-click" data-chax-clipboard-target=".chax-tab-js-code">
+        <span>Copy</span>
+        <div class="chax-tooltip">复制完成</div>
+      </button>
+      <pre class="code chax-tab-js-code"></pre>
     </div>
   </div>
 </div>

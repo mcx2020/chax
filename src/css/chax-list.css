@@ -1,0 +1,29 @@
+.chax-list{
+	/* c */
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	/* m */
+	width:1200px;
+	padding:17px;
+	/* f */
+	background: #FFF;
+}
+
+.chax-list .chax-list-item{
+	/* m */
+	margin:10px 8px;
+	padding:0.5rem 0.8rem;
+	color:#171718;
+	font-size: 14px;
+	cursor:pointer;
+	flex-wrap: wrap;
+	/* f */
+	background: #FFF;
+	border-radius: 2px;
+}
+.chax-list .chax-list-item.active,
+.chax-list .chax-list-item:hover{
+	color: #0057FF;
+	background: #E5EEFF;
+}
