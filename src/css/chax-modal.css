@@ -1,5 +1,4 @@
 .chax-modal{
-    /* c */
     position:fixed;
     left:0;
     right:0;
@@ -10,20 +9,17 @@
     display:none;
 }
 .chax-modal.active{
-    /* c */
     display:block;
 }
+
 .chax-modal .chax-modal-content{
-    /* c */
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    /* m */
     width:500px;
     height:500px;
     background: tan;
-    /* f */
     display:flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +28,8 @@
     font-weight: bold;
 }
 .chax-modal .chax-modal-content .chax-modal-close{
-    /* c */
     position: absolute;
     cursor: pointer;
-    /* m */
     top:20px;
     right:20px;
     font-size: 20px;

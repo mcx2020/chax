@@ -1,11 +1,33 @@
+/*clear default style*/
 *{
 	margin:0;
 	padding:0;
-	box-sizing: border-box;
+	box-sizing:border-box;
 }
 *::before,
 *::after{
 	margin:0;
 	padding:0;
-	box-sizing:border-box
+	box-sizing:border-box;
+}
+button:focus{
+	outline:none;
+}
+input:focus{
+	outline:none;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	color:currentColor;
+	text-decoration: none;
+}
+
+/*iconfont.cn style*/
+.icon {
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
 }

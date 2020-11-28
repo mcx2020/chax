@@ -1,6 +1,7 @@
-$('.chax-tab-nav-item').hover(function(){
+$('.chax-tab .chax-tab-nav-item').hover(function(){
+  $(this).siblings().removeClass('active')
+  $(this).addClass('active')
   let index = $(this).index()
-  $(this).parents('.chax-tab-nav')
-    .siblings('.chax-tab-panel')
-    .children('.chax-tab-panel-item').removeClass('active').eq(index).addClass('active')
+  $('.chax-tab .chax-tab-panel-item').removeClass('active')
+    .eq(index).addClass('active')
 })

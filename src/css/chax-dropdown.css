@@ -1,26 +1,24 @@
 .chax-dropdown{
-	/* m */
 	width:160px;
 	background: #FFF;
-	/* f */
-	padding:10px 0;
+	box-shadow:0 0 6px -3px rgba(0,0,0,0.8);
 }
+
 .chax-dropdown .chax-dropdown-item{
-	/* c */
 	width:100%;
 	display:flex;
 	justify-content: flex-start;
 	align-items: center;
-	/* m */
 	height:34px;
 	color:#171718;
 	font-size: 14px;
 	padding-left:16px;
 	background: #FFF;
+	cursor:pointer;
 }
 
-.chax-dropdown .chax-dropdown-item:hover{
-	/* m */
+.chax-dropdown .chax-dropdown-item:hover,
+.chax-dropdown .chax-dropdown-item.active{
 	background: #F6F7F9;
 	color: #0057FF;
 }

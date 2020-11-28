@@ -1,29 +1,27 @@
 .chax-list{
-	/* c */
 	display:flex;
 	justify-content: flex-start;
 	align-items: center;
-	/* m */
+	flex-wrap:wrap;
 	width:1200px;
-	padding:17px;
-	/* f */
 	background: #FFF;
+	margin-left:-6px;
+	margin-right:-6px;
 }
 
 .chax-list .chax-list-item{
-	/* m */
-	margin:10px 8px;
-	padding:0.5rem 0.8rem;
+	margin:6px 6px;
+	padding:0.4em 0.8em;
 	color:#171718;
 	font-size: 14px;
+	white-space: nowrap;
 	cursor:pointer;
-	flex-wrap: wrap;
-	/* f */
 	background: #FFF;
 	border-radius: 2px;
 }
-.chax-list .chax-list-item.active,
-.chax-list .chax-list-item:hover{
+
+.chax-list .chax-list-item:hover,
+.chax-list .chax-list-item.active{
 	color: #0057FF;
 	background: #E5EEFF;
 }

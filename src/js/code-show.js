@@ -1,4 +1,4 @@
-import {htmlEscape} from "../../libs/htmlEscape.js"
+import {htmlEscape} from "../libs/htmlEscape.js"
 
 $('.chax-modal-html-code').html(
   htmlEscape('<div class="chax-modal">\n' +

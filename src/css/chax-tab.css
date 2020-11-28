@@ -1,38 +1,31 @@
 .chax-tab{
-    /* c */
     display:flex;
     justify-content: center;
     align-items: stretch;
     flex-direction: row;
-    /* m */
     width:400px;
     height:200px;
-
 }
+
 .chax-tab .chax-tab-nav{
-    /* c */
     display:flex;
     justify-content: flex-start;
     align-items: stretch;
     flex-direction: column;
-    /* m */
     width:100px;
     background: #DDD;
 }
 
 .chax-tab .chax-tab-nav-item{
-    /* m */
     background: #CCC;
 }
 
-.chax-tab .chax-tab-nav-item:hover{
-    /* m */
+.chax-tab .chax-tab-nav-item.active{
     cursor:pointer;
     background: tan;
 }
 
 .chax-tab .chax-tab-panel{
-    /* c */
     display:flex;
     justify-content: center;
     align-items: center;
@@ -40,14 +33,12 @@
 }
 
 .chax-tab .chax-tab-panel-item{
-    /* c */
     display:none;
     flex-grow: 1;
     height:100%;
-    /* m */
     background: #EEE;
 }
+
 .chax-tab .chax-tab-panel-item.active{
-    /* c */
     display:block;
 }

@@ -1,0 +1,30 @@
+.chax-nav{
+  height:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:0 20px;
+  background: #EEE;
+}
+
+.chax-nav .chax-nav-item{
+  height:100%;
+  display:flex;
+  margin:0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chax-nav .chax-nav-item.input-box{
+  flex-grow: 1;
+}
+
+.chax-nav .chax-nav-item.input-box input{
+  width:100%;
+  height:30px;
+}
+
+.chax-nav .chax-nav-item:hover{
+  cursor:pointer;
+  color:#0057FF;
+}

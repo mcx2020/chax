@@ -1,4 +1,4 @@
-import '../libs/import-jquery'
+import './libs/import-jquery'
 import './js/code-show'
 import './js/copy.js'
 import './js/chax-modal'
