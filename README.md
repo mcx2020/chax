@@ -4,19 +4,4 @@
 
 * 从最简单的组件开始做起，目前正在制作中...
 * 文档以后会慢慢完善
-
-## 开发
-
-```
-yarn
-yarn global add parcel
-yarn dev
-```
-
-## 重构打包
-
-```
-yarn build
-```
-
-*「作者：Eddie Ma」*
+* 目前还没有想好使用方法
