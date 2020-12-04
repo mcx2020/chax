@@ -1,0 +1,15 @@
+.chax-back-top{
+  position:fixed;
+  top:200px;
+  left:50%;
+  transform: translateX(100px);
+  cursor: pointer;
+  z-index: 10;
+  padding:0.4em 0.8em;
+  box-shadow: 0 8px 15px rgba(47, 63, 95, 0.1);
+}
+
+.chax-back-top:hover{
+  color:#0057FF;
+  background: #F6F7F9;
+}

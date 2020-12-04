@@ -1,13 +1,72 @@
-<link rel="stylesheet" href="../css/chax-base.css">
-<link rel="stylesheet" href="../css/chax-nav.css">
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>chaxNav</title>
+  <link rel="stylesheet" href="../css/chax-base.css">
+  <link rel="stylesheet" href="../css/chax-nav.css">
+</head>
+<body>
 <div class="chax-nav">
-  <div class="chax-nav-item">导航1</div>
-  <div class="chax-nav-item">导航2</div>
-  <div class="chax-nav-item input-box">
-    <label for="input-search"></label>
-    <input id="input-search" type="text">
+  <div class="chax-nav-item">
+    <span class="chax-nav-text">导航1</span>
   </div>
-  <div class="chax-nav-item">导航4</div>
-  <div class="chax-nav-item">导航5</div>
-
+  <div class="chax-nav-item">
+    <span class="chax-nav-text">导航2</span>
+  </div>
+  <div class="chax-nav-item chax-nav-search">
+    <div class="chax-search-box">
+      <div class="chax-search-option">
+        <div class="chax-select-show">
+          <span>全部分类</span>
+          <svg class="icon icon-dropdown" aria-hidden="true">
+            <use xlink:href="#icon-arrow-down-bold"></use>
+          </svg>
+        </div>
+        <div class="chax-option-dropdown">
+          <div class="chax-option-dropdown-item">全部分类</div>
+          <div class="chax-option-dropdown-item">菜单1</div>
+          <div class="chax-option-dropdown-item">菜单2</div>
+          <div class="chax-option-dropdown-item">菜单3</div>
+          <div class="chax-option-dropdown-item">菜单4</div>
+        </div>
+      </div>
+      <label>
+        <input id="search-input" class="chax-search-input" type="text" placeholder="点击这里搜索">
+      </label>
+      <div class="chax-search-popover">
+        <div class="pop-content p1">输入框为空且有历史记录时展示</div>
+        <div class="pop-content p2">输入框为空时展示</div>
+        <div class="pop-content p3">输入框为空时展示</div>
+        <div class="pop-content p4">输入框为空时展示</div>
+        <div class="pop-content p5">输入框有内容时展示</div>
+      </div>
+      <div class="chax-clear-input">
+        <svg aria-hidden="true" class="icon icon-search">
+          <use xlink:href="#icon-close"></use>
+        </svg>
+      </div>
+      <div class="chax-search-button">
+        <svg aria-hidden="true" class="icon icon-search">
+          <use xlink:href="#icon-search"></use>
+        </svg>
+        <span>搜索</span>
+      </div>
+    </div>
+  </div>
+  <div class="chax-nav-item">
+    <span class="chax-nav-text">导航4</span>
+  </div>
+  <div class="chax-nav-item">
+    <span class="chax-nav-text">导航4</span>
+  </div>
 </div>
+<script src="../js/jquery.min.js"></script>
+<script src="//at.alicdn.com/t/font_2219992_t8ptgy37ly.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/chax-nav.js"></script>
+</body>
+</html>

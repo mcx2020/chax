@@ -5,16 +5,15 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>popOver</title>
+  <title>chaxCopy</title>
   <link rel="stylesheet" href="../css/chax-base.css">
-  <link rel="stylesheet" href="../css/chax-popover.css">
 </head>
-<body style="display: flex;justify-content:center;padding-top:200px;">
-<div class="chax-popover-parent">
-  <button>悬浮看弹出窗</button>
-  <div class="chax-popover">这是一个弹出框</div>
-</div>
-</body>
+<body style="text-align: center;padding-top:200px;">
+<button class="chax-copy" data-chax-copy-target=".target">点击我复制下列文本</button>
+<div>Copy the following.</div>
+<div class="target">Hello World.I'm coming.</div>
 <script src="../js/jquery.min.js"></script>
 <script src="../js/common.js"></script>
+<script src="../js/chax-copy.js"></script>
+</body>
 </html>

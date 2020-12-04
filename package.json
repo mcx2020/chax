@@ -11,8 +11,6 @@
   "repository": "git@github.com:mcx2020/chax",
   "author": "EddieMa",
   "license": "MIT",
-  "dependencies": {
-    "jquery": "^3.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }

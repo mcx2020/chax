@@ -1,7 +1,6 @@
 .chax-tooltip-parent{
     position:relative;
     outline:none;
-    background: tan;
     display: inline-block;
 }
 
@@ -17,6 +16,7 @@
     border-radius: 4px;
     background: #000;
     color:#FFF;
+    font-size:14px;
 }
 
 .chax-tooltip-parent:hover .chax-tooltip,
