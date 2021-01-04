@@ -8,15 +8,13 @@ function searchBox(){
 		let $input = $('.chax-search-box input')
 		let historyRecord = [1,2,3]  // 假设这是一个历史记录
 		$input.focus(function(){
-			// 输入框被聚焦，显示搜索弹出框，根据输入值和历史记录确定搜索弹出框的内部展示情况
+			// 输入框被聚焦，显示搜索弹出框，根据输入值和历史记录确定搜索弹出框的内部展示
 			$('.chax-search-box .chax-search-popover').addClass('active')
 			judgePopOverContent()
-			console.log('还需设置好历史记录的显示与隐藏')
 		})
 		$input.keyup(function(){
-			// 输入框中有键按下，根据输入值和历史记录确定搜索弹出框的内部展示情况确定搜索弹出框的内部展示情况
+			// 输入框中有键按下，根据输入值和历史记录确定搜索弹出框的内部展示
 			judgePopOverContent()
-			console.log('还需要设置好历史记录的显示与隐藏')
 		})
 		$input.click(function(){
 			if($(this).is(':focus')){
@@ -24,15 +22,13 @@ function searchBox(){
 			}
 		})
 		function judgePopOverContent(){
-			console.log('判断')
+			// 根据输入值和历史记录确定搜索弹出框的内部展示
 			let valueText = $input.val()
 			if(!valueText){
 				if(historyRecord.length){
-					console.log('xxx')
 					$('.chax-search-popover').children().filter('.p5').removeClass('active-flex')
 						.siblings().addClass('active-flex')
 				}else{
-					console.log('yyy')
 					$('.chax-search-popover').children().filter('.p5').removeClass('active-flex')
 						.siblings().addClass('active-flex')
 						.filter('.p1').removeClass('active-flex')

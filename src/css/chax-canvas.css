@@ -1,0 +1,8 @@
+.chax-canvas-wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#chax-canvas{
+  border:1px solid red;
+}

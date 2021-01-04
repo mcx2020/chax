@@ -1,14 +1,15 @@
 let linkList = {
-  chaxBackTop:'./demos/chax-back-top.html',
-  chaxCopy:'./demos/chax-copy.html',
-  chaxDropdown:'./demos/chax-dropdown.html',
-  chaxList:'./demos/chax-list.html',
-  chaxModal:'./demos/chax-modal.html',
-  chaxNav:'./demos/chax-nav.html',
-  chaxPopover:'./demos/chax-popover.html',
-  chaxSuspension:'./demos/chax-suspension.html',
-  chaxTab:'./demos/chax-tab.html',
-  chaxTooltip:'./demos/chax-tooltip.html',
+  chaxBackTop:'./demos/chax-back-top.demos',
+  chaxCanvas:'./demos/chax-canvas.demos',
+  chaxCopy:'./demos/chax-copy.demos',
+  chaxDropdown:'./demos/chax-dropdown.demos',
+  chaxList:'./demos/chax-list.demos',
+  chaxModal:'./demos/chax-modal.demos',
+  chaxNav:'./demos/chax-nav.demos',
+  chaxPopover:'./demos/chax-popover.demos',
+  chaxSuspension:'./demos/chax-suspension.demos',
+  chaxTab:'./demos/chax-tab.demos',
+  chaxTooltip:'./demos/chax-tooltip.demos',
 }
 let linkListHTML = ''
 for (let key in linkList){
