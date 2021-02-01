@@ -10,6 +10,12 @@
 	padding:0;
 	box-sizing:border-box;
 }
+
+a{
+	color:inherit;
+	text-decoration: none;
+}
+
 button:focus{
 	outline:none;
 }
@@ -19,11 +25,13 @@ input:focus{
 ul,ol{
 	list-style:none;
 }
-a{
-	color:currentColor;
-	text-decoration: none;
+table{
+	border-collapse:collapse;
+	border-spacing:0;
 }
-
+video{
+	outline:none;
+}
 /*iconfont.cn style*/
 .icon {
 	width: 1em; height: 1em;

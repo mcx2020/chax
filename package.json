@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "live-server ./",
+    "start": "live-server ./src",
     "push": "bash push.sh"
   },
   "name": "chax",
